@@ -2,11 +2,15 @@ A quick attempt at calculating the fraction of grid pixels that intersects with 
 
 ### Installation
 
+Using conda or one of its leaner offspring, create a Python environment:
+
 ```
 micromamba create -f ./environment.yml
 ```
 
 ### Execution
+
+Activate the environment and start a notebook server:
 
 ```
 micromamba activate pixel-fractions
