@@ -1,0 +1,15 @@
+# to install this environment:
+# umamba create -f environment.yml
+name: pixel-fractions
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - ipykernel           # notebook support
+  - jupyter             # notebook support
+  - nb_conda_kernels    # notebook support
+  - pyarrow             # parquet format
+  - geopandas           # geographic dataframes
+  - netCDF4             # netcdf support for xarray
+  - xarray              # n-dimensional labelled numpy arrays
